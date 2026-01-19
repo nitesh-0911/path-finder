@@ -1,0 +1,21 @@
+{
+  "name": "path-finder",
+  "version": "1.0.0",
+  "description": "A fast, flexible directory and file brute-forcing tool written in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/path-finder"
+  },
+  "keywords": [
+    "path-finder",
+    "path-killer",
+    "scan-path",
+    "find-routes"
+  ],
+  "author": "nitesh-kumar",
+  "license": "ISC"
+}
