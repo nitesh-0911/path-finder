@@ -1,4 +1,4 @@
-function pathKiller({ dirList, path }) {
+function pathKiller([dirList, path]) {
     // 1. path and dirlist declaration
     // 2. loop through dirList
     dirList.forEach(async (dir, i) => {
