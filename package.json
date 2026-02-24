@@ -2,8 +2,13 @@
   "name": "path-finder",
   "version": "1.0.0",
   "description": "A fast, flexible directory and file brute-forcing tool written in Node.js.",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "module": "index.mjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  },
   "scripts": {
     "start": "node index.js"
   },
